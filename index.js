@@ -7,14 +7,14 @@ module.exports = {
 	schedule: function(pattern, cb){
 		var j = new CronJob(pattern, cb, stopped, true);
 	},
-	monitor: function(sites){
+	monitor: function(pattern, sites, cb){
 		var self = this;
 		sites.forEach(function(site){
-			self.schedule('00,10,20,30,40,50 * * * * *', function(){
+			self.schedule(pattern, function(){
 				http.get(site, function(res){
-					console.log("For " + site + ", Got response: " + res.statusCode);
+					cb(site, res);
 				}).on('error', function(e){
-					console.log("For " + site + ", Got error: " + e.message);	
+					cb(site, e);
 				});
 			});
 		});

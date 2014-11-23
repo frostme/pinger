@@ -25,7 +25,4 @@ spring.monitor('0,10,20,30,40,50 * * * * *', sites, cb);
 - monitor(pattern, sites, option)
   - pattern: Cron Job pattern. [More on cron patterns](http://crontab.org/)
   - sites:   Array of string urls for which you want to monitor.
-  - option:  *Optional* Can be three types.
-    - *String*: containing path json file that saves responses.
-    - *Object*: containing parameters to db, that pinger can save response to.
-    - *Function*: callback that takes two arguments, res, and site.
+  - cb:  callback that takes two arguments, res, and site.
