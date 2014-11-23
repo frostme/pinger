@@ -12,9 +12,9 @@ module.exports = {
 		sites.forEach(function(site){
 			self.schedule('00,10,20,30,40,50 * * * * *', function(){
 				http.get(site, function(res){
-					console.log("Got response: " + res.statusCode);
+					console.log("For " + site + ", Got response: " + res.statusCode);
 				}).on('error', function(e){
-					console.log("Got error: " + e.message);	
+					console.log("For " + site + ", Got error: " + e.message);	
 				});
 			});
 		});
