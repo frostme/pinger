@@ -1,0 +1,21 @@
+{
+  "name": "pinger",
+  "version": "0.0.0",
+  "description": "Background process that pings addresses.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ping",
+    "site",
+    "cron",
+    "job"
+  ],
+  "author": "M. Elliot Frost",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^1.0.5",
+    "node-schedule": "^0.1.13"
+  }
+}
