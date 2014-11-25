@@ -9,9 +9,9 @@ module.exports = {
 		sites.forEach(function(site){
 			self.schedule(pattern, function(){
 				http.get(site, function(res){
-					cb(site, res);
+					cb(null, site, res);
 				}).on('error', function(e){
-					cb(site, e);
+					cb(e, site, null);
 				}, stop);
 			});
 		});
