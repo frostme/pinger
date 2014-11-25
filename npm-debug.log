@@ -1,0 +1,115 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . C:\Users\melli_000\AppData\Roaming\npm-cache\3a52ce78-.lock
+11 verbose tar pack [ 'C:\\Users\\MELLI_~1\\AppData\\Local\\Temp\\npm-8912-rYSs-Vrh\\1416882616717-0.41603662841953337\\tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball C:\Users\MELLI_~1\AppData\Local\Temp\npm-8912-rYSs-Vrh\1416882616717-0.41603662841953337\tmp.tgz
+13 verbose folder .
+14 info prepublish cron-ping@0.0.4
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. C:\Users\melli_000\AppData\Roaming\npm-cache\1f1177db-tar.lock
+17 silly lockFile 3e38539f-6717-0-41603662841953337-tmp-tgz tar://C:\Users\MELLI_~1\AppData\Local\Temp\npm-8912-rYSs-Vrh\1416882616717-0.41603662841953337\tmp.tgz
+18 verbose lock tar://C:\Users\MELLI_~1\AppData\Local\Temp\npm-8912-rYSs-Vrh\1416882616717-0.41603662841953337\tmp.tgz C:\Users\melli_000\AppData\Roaming\npm-cache\3e38539f-6717-0-41603662841953337-tmp-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 3e38539f-6717-0-41603662841953337-tmp-tgz tar://C:\Users\MELLI_~1\AppData\Local\Temp\npm-8912-rYSs-Vrh\1416882616717-0.41603662841953337\tmp.tgz
+22 silly lockFile 3e38539f-6717-0-41603662841953337-tmp-tgz tar://C:\Users\MELLI_~1\AppData\Local\Temp\npm-8912-rYSs-Vrh\1416882616717-0.41603662841953337\tmp.tgz
+23 verbose tar unpack C:\Users\MELLI_~1\AppData\Local\Temp\npm-8912-rYSs-Vrh\1416882616717-0.41603662841953337\tmp.tgz
+24 silly lockFile 37e82fce-pm-cache-cron-ping-0-0-4-package tar://C:\Users\melli_000\AppData\Roaming\npm-cache\cron-ping\0.0.4\package
+25 verbose lock tar://C:\Users\melli_000\AppData\Roaming\npm-cache\cron-ping\0.0.4\package C:\Users\melli_000\AppData\Roaming\npm-cache\37e82fce-pm-cache-cron-ping-0-0-4-package.lock
+26 silly lockFile 3e38539f-6717-0-41603662841953337-tmp-tgz tar://C:\Users\MELLI_~1\AppData\Local\Temp\npm-8912-rYSs-Vrh\1416882616717-0.41603662841953337\tmp.tgz
+27 verbose lock tar://C:\Users\MELLI_~1\AppData\Local\Temp\npm-8912-rYSs-Vrh\1416882616717-0.41603662841953337\tmp.tgz C:\Users\melli_000\AppData\Roaming\npm-cache\3e38539f-6717-0-41603662841953337-tmp-tgz.lock
+28 silly gunzTarPerm modes [ '755', '644' ]
+29 silly gunzTarPerm extractEntry package.json
+30 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+31 silly gunzTarPerm extractEntry .npmignore
+32 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+33 silly gunzTarPerm extractEntry README.md
+34 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+35 silly gunzTarPerm extractEntry example.js
+36 silly gunzTarPerm modified mode [ 'example.js', 438, 420 ]
+37 silly gunzTarPerm extractEntry index.js
+38 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+39 silly lockFile 37e82fce-pm-cache-cron-ping-0-0-4-package tar://C:\Users\melli_000\AppData\Roaming\npm-cache\cron-ping\0.0.4\package
+40 silly lockFile 37e82fce-pm-cache-cron-ping-0-0-4-package tar://C:\Users\melli_000\AppData\Roaming\npm-cache\cron-ping\0.0.4\package
+41 silly lockFile 3e38539f-6717-0-41603662841953337-tmp-tgz tar://C:\Users\MELLI_~1\AppData\Local\Temp\npm-8912-rYSs-Vrh\1416882616717-0.41603662841953337\tmp.tgz
+42 silly lockFile 3e38539f-6717-0-41603662841953337-tmp-tgz tar://C:\Users\MELLI_~1\AppData\Local\Temp\npm-8912-rYSs-Vrh\1416882616717-0.41603662841953337\tmp.tgz
+43 silly lockFile 3a52ce78- .
+44 silly lockFile 3a52ce78- .
+45 silly publish { name: 'cron-ping',
+45 silly publish   version: '0.0.4',
+45 silly publish   description: 'Background process that pings addresses.',
+45 silly publish   main: 'index.js',
+45 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+45 silly publish   keywords: [ 'ping', 'cron', 'site', 'job' ],
+45 silly publish   author: { name: 'M. Elliot Frost' },
+45 silly publish   license: 'ISC',
+45 silly publish   dependencies: { cron: '^1.0.5' },
+45 silly publish   readme: 'cron-ping\r\n======\r\n\r\nBackground process module to ping your websites.\r\n\r\n## Installation\r\n```\r\nnpm install cron-ping\r\n```\r\n\r\n## Usage\r\n```js\r\nvar cronPing = require(\'cron-ping\');\r\n\r\nvar sites = [\'http://www.google.com\',\'http://www.yahoo.com\',\'http://www.bing.com\'];\r\n\r\nvar cb = function(res, site){\r\n  console.log(\'Got \' + res.statusCode + \' for \' + site);\r\n});\r\nvar stop = function(){\r\n  console.log(\'Monitoring has stopped\');\r\n};\r\n\r\ncronPing.monitor(\'0,10,20,30,40,50 * * * * *\', sites, cb, stop);\r\n```\r\n\r\n## API\r\n- monitor(pattern, sites, cb, stop)\r\n  - pattern: Cron Job pattern. [More on cron patterns](http://crontab.org/)\r\n  - sites:   Array of string urls for which you want to monitor.\r\n  - cb:  callback that takes two arguments, res, and site.\r\n  - stop: callback to be called when monitoring is stoppped\r\n',
+45 silly publish   readmeFilename: 'README.md',
+45 silly publish   _id: 'cron-ping@0.0.4',
+45 silly publish   _shasum: '16823e39b61bad26e4d3439f28a5845b97e93136',
+45 silly publish   _from: '.' }
+46 verbose url raw cron-ping
+47 verbose url resolving [ 'https://registry.npmjs.org/', './cron-ping' ]
+48 verbose url resolved https://registry.npmjs.org/cron-ping
+49 info trying registry request attempt 1 at 21:30:16
+50 http PUT https://registry.npmjs.org/cron-ping
+51 http 403 https://registry.npmjs.org/cron-ping
+52 verbose headers { date: 'Tue, 25 Nov 2014 02:30:09 GMT',
+52 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+52 verbose headers   'content-type': 'application/json',
+52 verbose headers   'cache-control': 'max-age=60',
+52 verbose headers   'content-length': '2885',
+52 verbose headers   'accept-ranges': 'bytes',
+52 verbose headers   via: '1.1 varnish',
+52 verbose headers   'x-served-by': 'cache-iad2138-IAD',
+52 verbose headers   'x-cache': 'MISS',
+52 verbose headers   'x-cache-hits': '0',
+52 verbose headers   'x-timer': 'S1416882608.677143,VS0,VE328',
+52 verbose headers   'keep-alive': 'timeout=10, max=50',
+52 verbose headers   connection: 'Keep-Alive' }
+53 error publish Failed PUT 403
+54 error Error: forbidden cannot modify pre-existing version: 0.0.4
+54 error old={"name":"cron-ping","version":"0.0.4","description":"Background process that pings addresses.","main":"index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"keywords":["ping","site","cron","job"],"author":{"name":"M. Elliot Frost"},"license":"ISC","dependencies":{"cron":"^1.0.5"},"_id":"cron-ping@0.0.4","_shasum":"b2d7a5524746177c26c7063dacb95178735b51ac","_from":".","_npmVersion":"1.4.9","_npmUser":{"name":"frostme","email":"melliotfrost@gmail.com"},"maintainers":[{"name":"frostme","email":"melliotfrost@gmail.com"}],"dist":{"shasum":"b2d7a5524746177c26c7063dacb95178735b51ac","tarball":"http://registry.npmjs.org/cron-ping/-/cron-ping-0.0.4.tgz"}}
+54 error new={"name":"cron-ping","version":"0.0.4","description":"Background process that pings addresses.","main":"index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"keywords":["ping","cron","site","job"],"author":{"name":"M. Elliot Frost"},"license":"ISC","dependencies":{"cron":"^1.0.5"},"readme":"cron-ping\u000d\u000a======\u000d\u000a\u000d\u000aBackground process module to ping your websites.\u000d\u000a\u000d\u000a## Installation\u000d\u000a```\u000d\u000anpm install cron-ping\u000d\u000a```\u000d\u000a\u000d\u000a## Usage\u000d\u000a```js\u000d\u000avar cronPing = require('cron-ping');\u000d\u000a\u000d\u000avar sites = ['http://www.google.com','http://www.yahoo.com','http://www.bing.com'];\u000d\u000a\u000d\u000avar cb = function(res, site){\u000d\u000a  console.log('Got ' + res.statusCode + ' for ' + site);\u000d\u000a});\u000d\u000avar stop = function(){\u000d\u000a  console.log('Monitoring has stopped');\u000d\u000a};\u000d\u000a\u000d\u000acronPing.monitor('0,10,20,30,40,50 * * * * *', sites, cb, stop);\u000d\u000a```\u000d\u000a\u000d\u000a## API\u000d\u000a- monitor(pattern, sites, cb, stop)\u000d\u000a  - pattern: Cron Job pattern. [More on cron patterns](http://crontab.org/)\u000d\u000a  - sites:   Array of string urls for which you want to monitor.\u000d\u000a  - cb:  callback that takes two arguments, res, and site.\u000d\u000a  - stop: callback to be called when monitoring is stoppped\u000d\u000a","readmeFilename":"README.md","_id":"cron-ping@0.0.4","_shasum":"16823e39b61bad26e4d3439f28a5845b97e93136","_from":".","_npmVersion":"1.4.9","_npmUser":{"name":"frostme","email":"melliotfrost@gmail.com"},"maintainers":[{"name":"frostme","email":"melliotfrost@gmail.com"}],"dist":{"shasum":"16823e39b61bad26e4d3439f28a5845b97e93136","tarball":"http://registry.npmjs.org/cron-ping/-/cron-ping-0.0.4.tgz"}}: cron-ping
+54 error     at RegClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:273:14)
+54 error     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:211:65)
+54 error     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:123:22)
+54 error     at Request.EventEmitter.emit (events.js:98:17)
+54 error     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:893:14)
+54 error     at Request.EventEmitter.emit (events.js:117:20)
+54 error     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:844:12)
+54 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+54 error     at _stream_readable.js:919:16
+54 error     at process._tickCallback (node.js:419:13)
+55 error If you need help, you may report this *entire* log,
+55 error including the npm and node versions, at:
+55 error     <http://github.com/npm/npm/issues>
+56 error System Windows_NT 6.2.9200
+57 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+58 error cwd C:\Users\melli_000\frostme\projects\pinger
+59 error node -v v0.10.28
+60 error npm -v 1.4.9
+61 verbose exit [ 1, true ]
