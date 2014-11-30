@@ -24,6 +24,14 @@ var stop = function(){
 cronPing.monitor('0,10,20,30,40,50 * * * * *', sites, cb, stop);
 ```
 
+## Forever
+You can use forever to run cron-ping as a background process. Put your entire usage into a single file.
+For example pinger.js
+```
+npm install forever -g
+forever start pinger.js
+```
+
 ## API
 - monitor(pattern, sites, cb, stop)
   - pattern: Cron Job pattern. [More on cron patterns](http://crontab.org/)
