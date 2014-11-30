@@ -1,6 +1,6 @@
 {
   "name": "cron-ping",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Background process that pings addresses.",
   "main": "index.js",
   "scripts": {
